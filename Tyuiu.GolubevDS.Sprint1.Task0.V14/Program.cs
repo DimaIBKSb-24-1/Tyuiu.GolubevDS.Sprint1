@@ -1,6 +1,6 @@
 ﻿using Tyuiu.GolubevDS.Sprint1.Task0.V14.Lib;
 
-DataService ds = new DataService();
+Data ds = new ();
 
 Console.Title = "Спринт #1 | Выполнил Голубев Д. С. | ИБКСб-24-1";
 Console.WriteLine("**************************************************************************");
