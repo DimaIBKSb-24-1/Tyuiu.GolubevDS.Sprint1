@@ -1,0 +1,11 @@
+﻿namespace Tyuiu.GolubevDS.Sprint1.Task1.V19.Lib;
+    using tyuiu.cources.programming.interfaces.Sprint1;
+
+    public class DataService : ISprint1Task1V19
+{
+    public double Calculate(double x, double y)
+    {
+        return (x + 10 * y) / (x * y);
+    }
+}
+
