@@ -7,7 +7,7 @@ namespace Tyuiu.GolubevDS.Sprint1.Task0.V14.Test;
         [TestMethod]
         public void TestMethod1()
         {
-         Data ds = new ();
+         DataService ds = new ();
         var res = ds.Calculate();
         Assert.AreEqual(25, res);
         }
