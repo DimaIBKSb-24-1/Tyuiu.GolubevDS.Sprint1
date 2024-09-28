@@ -5,7 +5,7 @@ public class DataService : ISprint1Task4V25
 {
     public double Calculate(double a)
     {
-        var res = Math.Round(1-Math.Cos(a)/Math.Pow(Math.Sin(a), 2), 3);
-        return res;
+        return Math.Round(1-Math.Cos(a)/Math.Pow(Math.Sin(a), 2), 3);
+        
     }
 }
