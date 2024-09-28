@@ -8,8 +8,8 @@ public class DataServiceTest
     public void ValidExpression()
     {
         DataService ds = new DataService();
-        double a = 1;
-        double z = 0.237;
+        double a = 120;
+        double z = -1.415;
         var res = ds.Calculate(a);
         Assert.AreEqual(z, res);
     }
