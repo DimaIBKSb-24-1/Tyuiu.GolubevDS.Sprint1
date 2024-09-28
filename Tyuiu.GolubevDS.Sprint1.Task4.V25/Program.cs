@@ -23,6 +23,6 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
 Console.WriteLine("************************************************************************");
 
-Console.WriteLine(("1 - CosA / Sin2 A = ") + ds.Calculate(a));
+Console.WriteLine("Результат формулы = " + Math.Round(ds.Calculate(a), 3));
 
 Console.ReadLine();

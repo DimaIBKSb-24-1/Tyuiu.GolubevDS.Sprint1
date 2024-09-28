@@ -8,9 +8,10 @@ public class DataServiceTest
     public void ValidExpression()
     {
         DataService ds = new DataService();
-        double a = 120;
-        double z = -1.415;
+
+        double a = 1;
+        double wait = 0.649;
         var res = ds.Calculate(a);
-        Assert.AreEqual(z, res);
+        Assert.AreEqual(wait, res);
     }
 }
