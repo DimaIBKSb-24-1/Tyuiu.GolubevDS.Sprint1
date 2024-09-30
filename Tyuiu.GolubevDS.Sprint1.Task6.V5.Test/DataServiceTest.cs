@@ -6,8 +6,8 @@ public class DataServiceTest
     [TestMethod]
     public void ValidString()
     {
+        string strTest = "вася казак коля калаш гога шалаш";
         DataService ds = new DataService();
-        string strTest = " казак шалаш ";
         string[] slova = strTest.Split(' ');
         string res = "";
         for (int i = 0; i < slova.Length; i++)
@@ -19,7 +19,7 @@ public class DataServiceTest
                 res += (word + " ");
             }
         }
-        string wait = "казак шалаш";
+        string wait = "казак шалаш ";
         Assert.AreEqual(wait, res);
     }
 }
