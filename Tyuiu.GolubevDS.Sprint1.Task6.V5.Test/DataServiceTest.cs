@@ -19,7 +19,7 @@ public class DataServiceTest
                 res += (word + " ");
             }
         }
-        string wait = "казакшалаш";
+        string wait = "казак шалаш";
         Assert.AreEqual(wait, res);
     }
 }
