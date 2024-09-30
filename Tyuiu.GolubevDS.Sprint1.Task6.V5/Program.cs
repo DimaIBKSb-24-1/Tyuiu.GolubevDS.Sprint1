@@ -15,14 +15,12 @@ Console.WriteLine("* которые являются симметричными 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("Введите слова");
-
-string x = Console.ReadLine();
+Console.WriteLine("Введите текст:");
+string text = new String(Console.ReadLine());
 
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("* Результат:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-string y = ds.CheckSymmetricalWords(x);
-Console.WriteLine(y);
-Console.ReadKey();
+Console.WriteLine("Симметричные слова: " + ds.CheckSymmetricalWords(text));
+Console.ReadLine();
