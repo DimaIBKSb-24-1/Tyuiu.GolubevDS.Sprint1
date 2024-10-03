@@ -10,7 +10,7 @@ public class DataServiceTest
         DataService ds = new DataService();
         double x = 1;
         double y = 2;
-        double z = 5.51;
+        double z = 6.51;
         var res = ds.Calculate(x,y);
         Assert.AreEqual(z,res);
     }
